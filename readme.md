@@ -9,7 +9,16 @@ la mejor forma de ejecutarlo es desde la terminal.
 
 Para ello, con el repositorio clonado, abrís la terminal y ejecutáis:
 
+## Linux/MacOs
+
 ```bash
+./mvnw install
+./mvnw clean jacoco:prepare-agent install jacoco:report
+```
+
+## Windows CMD
+
+```cmd
 mvnw install
 mvnw clean jacoco:prepare-agent install jacoco:report
 ```
